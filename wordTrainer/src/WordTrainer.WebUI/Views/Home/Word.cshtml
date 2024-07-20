@@ -1,0 +1,38 @@
+﻿@model WordTrainer.Domain.Word
+
+<div class="page-wrapper">
+    <div id="page-1" class="page-container">
+        <div id="main-1" class="main v-table">
+            <div id="word-1" class="word v-cell">@Model.Word_Ru</div>
+        </div>
+        <div id="panel-1" class="right-panel v-table">
+            <div class="text v-cell">
+                Translate
+            </div>
+        </div>
+    </div>
+    <div id="page-2" class="page-container" style="display: none;">
+        <div id="main-2" class="main v-table">
+            <div id="word-2" class="word v-cell">@Model.Word_En</div>
+        </div>
+        <div id="panel-2" class="right-panel v-table">
+            <div class="text v-cell">
+                Next
+            </div>
+        </div>
+    </div>
+</div>
+
+@section FooterScripts {
+    <script>
+        $(function () {
+            $("#panel-1").bind("click", function () {
+                $("#page-1").hide();
+                $("#page-2").show();
+            });
+            $("#main-1, #main-2, #panel-2").bind("click", function () {
+                document.location = "@Url.Action("Word")";
+            });
+        });
+    </script>
+}

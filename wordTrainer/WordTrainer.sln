@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordTrainer.Domain", "src\WordTrainer.Domain\WordTrainer.Domain.csproj", "{0CF5939E-570D-4588-ADDA-C33FAF38346F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordTrainer.WebUI", "src\WordTrainer.WebUI\WordTrainer.WebUI.csproj", "{CF88F9A5-4A74-4921-8AA7-EA6DBB4B19C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordTrainer.WebAPI", "src\WordTrainer.WebAPI\WordTrainer.WebAPI.csproj", "{590074F8-CD86-4086-AA3A-EC7AD6541091}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CF5939E-570D-4588-ADDA-C33FAF38346F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF5939E-570D-4588-ADDA-C33FAF38346F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CF5939E-570D-4588-ADDA-C33FAF38346F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CF5939E-570D-4588-ADDA-C33FAF38346F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF88F9A5-4A74-4921-8AA7-EA6DBB4B19C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF88F9A5-4A74-4921-8AA7-EA6DBB4B19C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF88F9A5-4A74-4921-8AA7-EA6DBB4B19C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF88F9A5-4A74-4921-8AA7-EA6DBB4B19C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{590074F8-CD86-4086-AA3A-EC7AD6541091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{590074F8-CD86-4086-AA3A-EC7AD6541091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{590074F8-CD86-4086-AA3A-EC7AD6541091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{590074F8-CD86-4086-AA3A-EC7AD6541091}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

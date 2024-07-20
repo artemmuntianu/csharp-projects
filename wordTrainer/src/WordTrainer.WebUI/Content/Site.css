@@ -1,0 +1,107 @@
+﻿body
+{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input[type="text"],
+input[type="password"]
+{
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error
+{
+    color: #b94a48;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+input.input-validation-error
+{
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error
+{
+    border: 0 none;
+}
+
+.validation-summary-errors
+{
+    color: #b94a48;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+
+.page-wrapper
+{
+    height: 510px;
+}
+
+.page-container
+{
+    height: 100%;
+}
+
+    .page-container .main
+    {
+        height: 100%;
+        float: left;
+        width: 80%;
+        cursor: pointer;
+    }
+
+    .page-container .right-panel
+    {
+        height: 100%;
+        float: left;
+        width: 20%;
+        overflow: hidden;
+        background-color: rgba(173, 255, 47, 0.5);
+        cursor: pointer;
+    }
+
+        .page-container .right-panel:hover
+        {
+            background-color: rgb(173, 255, 47);
+        }
+
+        .page-container .right-panel .text
+        {
+            -webkit-transform: rotate(-90deg);
+            font: bold 40px sans-serif;
+            text-align: center;
+        }
+
+    .page-container .main .word
+    {
+        font: bold 100px sans-serif;
+        text-align: center;
+    }
+
+.v-table
+{
+    display: table;
+}
+
+.v-cell
+{
+    display: table-cell;
+    vertical-align: middle;
+}
